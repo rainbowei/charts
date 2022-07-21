@@ -167,6 +167,9 @@ volumeMounts:
     mountPath: /opt/archery/local_settings.py
   - name: archery-settings
     subPath: settings.py
+    mountPath: /opt/archery/archery/settings.py  
+  - name: archery-settings
+    subPath: settings.py
     mountPath: /opt/archery/archery/settings.py
   - name: archery-settings
     subPath: soar.yaml
